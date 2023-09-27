@@ -1,0 +1,18 @@
+/* Start by defining grid-template-columns on the container */
+.grid-container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+  display: grid;
+  max-width: fit-content;
+  margin: 3rem auto;
+  
+  background-color: #000;
+}
+
+.grid-item {
+  width: 200px;
+  height: 200px;
+  
+  background-color: #fff;
+}
